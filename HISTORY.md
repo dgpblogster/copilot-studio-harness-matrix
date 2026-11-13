@@ -4,6 +4,29 @@ This file exists because the matrix it sits next to is about a platform that is 
 changing, and a reader arriving later needs to know how fast the rows move. Each section is
 dated by when the state was read from Microsoft Learn, not by when Microsoft shipped anything.
 
+## Read 2026-11-13
+
+**The harness was renamed.** What every earlier entry here calls the **GitHub Copilot harness**
+is now the **Microsoft Copilot harness**.
+[Harnesses in Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/harnesses-overview)
+lists Microsoft Copilot, Customer Conversation and standard; the old name does not appear on it.
+The upgrade article is now titled
+[Upgrade agents to the Microsoft Copilot harness](https://learn.microsoft.com/microsoft-copilot-studio/upgrade-to-github-copilot-from-standard-harness),
+and the two pages the sharing rules come from are retitled with it:
+[Add a Copilot Studio agent as a connected agent (Microsoft Copilot)](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/add-agent-connected)
+and
+[Share agents with other users and makers (Microsoft Copilot)](https://learn.microsoft.com/microsoft-copilot-studio/agents-experience/authoring-share-agent).
+The URL slugs still read `github-copilot`, so every link in MATRIX.md still resolves. No
+capability moved with the name.
+
+**A limitation got sharper.** The upgrade article's Knowledge sources limitation now adds that
+the harness does not support Azure AI Search as a knowledge source at all, so an agent grounded
+that way loses the grounding configuration entirely. The documented ways back are connecting
+Foundry IQ as a tool, or adding the Azure AI Search connector as a tool.
+
+Earlier entries keep the name that was current when they were written. They are a record of what
+the documentation said on those dates, not a description of today.
+
 ## Read 2026-10-30
 
 **Three harnesses, and the third one is new.** The overview now compares the **GitHub Copilot
